@@ -1,0 +1,38 @@
+.archivewrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+.singlecontent{
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 10px;
+    justify-content: center;
+    &:hover{
+        box-shadow: 2px 2px 8px rgba(184, 184, 184, 0.3);
+    }
+    .innercontent{
+        padding: 10px;
+        text-align: center;
+    }
+    h1{
+        font-size: 22px;
+        margin-top: 6px;
+    }
+    h4{
+        background: #fcdc31;
+        padding: 5px 10px;
+        color: #ce1a26;
+        position: absolute;
+        top:20px;
+        left:20px;
+    }
+    p{
+        margin-top: 5px;
+        color: #ce1a26;
+
+    }
+}

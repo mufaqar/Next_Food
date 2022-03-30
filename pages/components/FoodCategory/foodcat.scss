@@ -1,0 +1,32 @@
+.category_card{
+    margin-top: 20px;
+    .catpic{
+        min-width: 256;
+        min-height: 256;
+        border-radius: 50%;
+        span{
+            width: 170px !important;
+            height: 170px !important;
+            border-radius: 50%;
+            object-fit: cover;
+
+            span{
+                img{
+                    height: 170px;
+                    border-radius: 61%;
+                    width: 170px;
+                    object-fit: cover !important;
+
+                }
+            }
+        }
+    }
+    h5{
+        margin-top: 1rem;
+    }
+   
+}
+
+.category_card:hover  h5{
+    color: #CE1A26
+}

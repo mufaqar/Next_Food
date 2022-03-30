@@ -1,0 +1,51 @@
+.download-app{
+    background-color: #fcdc31;
+    padding: 50px 20px;
+    .content{
+        width: 30%;
+        .app_btn{
+            figure{
+                width: 150px;
+                margin-right: 1rem;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .pics{
+        figure{
+            max-width: 220px;
+            margin: 0 5px;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .container-fluid{
+        flex-direction: column;
+        .content{
+            width: 100% !important;
+            margin-bottom: 1rem;
+        }
+    }
+}
+    
+
+@media(max-width:968px){
+    .download-app{
+        .content{
+            h1{
+                font-size: 2rem !important;
+            }
+        }
+        .pics{
+            figure{
+                max-width: 270px !important;
+            }
+        }
+    }
+      
+}

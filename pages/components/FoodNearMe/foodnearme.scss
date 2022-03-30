@@ -1,0 +1,25 @@
+.food_near_me{
+    margin: 100px auto;
+}
+.top-header{
+    .title{
+        h4{
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 35px;
+        }
+    }
+    .view{
+        margin-right: 150px;
+        p{
+         border-bottom: 1px solid;
+         cursor: pointer;
+        }
+     }
+}
+
+@media(max-width:768px){
+    .food_near_me{
+        margin: 50px auto;
+    }
+}
