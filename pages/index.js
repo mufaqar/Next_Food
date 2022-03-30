@@ -1,8 +1,7 @@
-import './components/header/Header'
-import Landing from './Landing'
-import fooddata from './api/fooddata'
-import blogdata from './api/blogdata'
-
+import './components/header/Header';
+import Landing from './Landing';
+import fooddata from './api/fooddata';
+import blogdata from './api/blogdata';
 
 export const getStaticProps = async () => {
   return {
@@ -10,14 +9,13 @@ export const getStaticProps = async () => {
       fooddata,
       blogdata,
     },
-  }
-}
-
+  };
+};
 
 export default function Home() {
   return (
     <>
-      <Landing fooddata={fooddata} blogdata={blogdata}/>
+      <Landing fooddata={fooddata} blogdata={blogdata} />
     </>
-  )
+  );
 }
