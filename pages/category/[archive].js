@@ -22,7 +22,7 @@ export default function Archive() {
                 <div className="singlecontent  flex flex-col v_align">
                   <Image src={product.pic} alt={product.category} />
                   <div className="innercontent">
-                    <h1>{product.title}</h1>
+                    <h1 classname="heading">{product.title}</h1>
                     <h4>{product.category}</h4>
                     <p>{product.price}</p>
                   </div>
