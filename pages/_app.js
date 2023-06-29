@@ -13,7 +13,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import '../pages/components/banner/banner.scss';
 import '../pages/category/category.scss';
 import '../pages/components/CategoryBanner/categorybanner.scss';
-import '../pages/shop/shop.scss';
+//import '../pages/shop/shop.scss';
 import { store } from '../redux/store';
 import { Provider } from 'react-redux';
 import '../pages/cart/cart.scss';
